@@ -9,7 +9,17 @@ for (let i = 0; i < example_array.length; i++) {
     
 }
 
-// Finding max and min in array
+// Finding max 
 
+let array_max = [12,34,54,32,12];
 
+let max = 0
 
+for(let i =0; i<array_max.length;i++){
+    if(array_max[i] > max){
+         max = array_max[i]
+         
+        }
+    }
+    
+    console.log(max);
