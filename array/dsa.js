@@ -22,4 +22,22 @@ for(let i =0; i<array_max.length;i++){
         }
     }
     
-    console.log(max);
+    // console.log(max);
+
+
+
+    // find min number of the array 
+
+    const minArr = [65,284,463,76]
+    let min = minArr[0]
+    for (let i = 0; i < minArr.length; i++) {
+        
+        if(minArr[i] < min){
+            min = minArr[i]
+        }
+    }
+    console.log(min)
+
+
+
+
