@@ -36,7 +36,20 @@ for(let i =0; i<array_max.length;i++){
             min = minArr[i]
         }
     }
-    console.log(min)
+    // console.log(min)
+
+
+    // fibbonaci 
+    const fibbonaci = (number) =>{
+        if(number <= 1) return number;
+
+        return
+        fibbonaci(number -1) + fibbonaci(number -2)
+    }
+
+    console.log(
+        fibbonaci(8)
+    )
 
 
 
